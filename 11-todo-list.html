@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Todo List</title>
+  <link rel="stylesheet" href="styles/11-todo-list.css">
+
+ </head>
+  <body>
+
+  <p>Todo List</p>
+  <div class="todo-input-grid  ">
+    <input placeholder="Todo Name" 
+    class="js-name-input    name-input">
+    <input type="date" class="js-due-date-input due-date-input">
+    <button onclick="
+      addTodo();
+    " class="add-todo-button">Add</button>
+  </div><!--we put it in div to make a grid-->
+
+  <div class="js-todo-list todo-grid" ></div><!--it is also a block element but it does not add an extra space below and above -->
+   <!--div is a container it contains different elements eg buttons paragraphs and even div elements,we cant have paragraph inside the paragraph -->
+  
+    <script src="scripts/11-todo-list.js"></script>
+
+
+  </body>
+</html>
+
